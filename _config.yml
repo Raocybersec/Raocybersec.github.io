@@ -14,13 +14,13 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Rao's Portfolio" # the main title
+title: "Rao T" # the main title
 
-tagline: "Aspiring Cybersecurity Analyst" # it will display as the subtitle
+tagline: "CS Graduate | Cybersecurity Practitioner | SOC Aspirant" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+Documenting my journey into Cybersecurity. 
+  Focused on SIEM monitoring, network analysis, and "Proof of Work" labs.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://Raocybersec.github.io"
