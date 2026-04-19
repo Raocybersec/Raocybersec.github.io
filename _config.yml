@@ -14,15 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Rao T" # the main title
+title: "Rao T"
+tagline: "CS Graduate | Cybersecurity Practitioner | SOC Aspirant"
+description: >-
+  Documenting my journey into Cybersecurity.
+  Focused on SIEM monitoring, network analysis, and Proof of Work labs.
 
-tagline: "CS Graduate | Cybersecurity Practitioner | SOC Aspirant" # it will display as the subtitle
-
-description: >- 
-Documenting my journey into Cybersecurity. 
-Focused on SIEM monitoring, network analysis, and Proof of Work labs.
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://Raocybersec.github.io"
 
 github:
