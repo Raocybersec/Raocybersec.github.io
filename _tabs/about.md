@@ -25,7 +25,7 @@ I use this platform to document my hands-on experience with industry-standard se
 **I am currently open for cybersecurity projects and full-time roles.** I am actively seeking a position as a Junior SOC Analyst or Technical Researcher where I can contribute my analytical skills and dedication to securing digital assets.
 
 ### 🏋️‍♂️ Discipline and Consistency
-I apply the same goal-oriented discipline to security as I do to my fitness. I maintain a strict **6-day PPL bodybuilding split**, proving that consistency and the "Proof of Work" mentality are the keys to mastering any complex field.
+I apply the same goal-oriented discipline to security as I do to my fitness. I maintain a strict **workout routine**, proving that consistency and the "Proof of Work" mentality are the keys to mastering any complex field.
 
 ---
 *Degrees provide the foundation; labs provide the proof.*
