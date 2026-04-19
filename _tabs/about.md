@@ -7,24 +7,25 @@ order: 4
 
 # Rao | Computer Science Graduate & Cybersecurity Aspirant
 
-I am a Computer Science graduate dedicated to bridging the gap between academic theory and practical security operations. My focus is on mastering the technical tools and defensive mindsets required to excel in today’s evolving threat landscape.
+I am a Computer Science graduate dedicated to bridging the gap between academic theory and practical security operations. My focus is on mastering the defensive mindsets and monitoring tools required to excel in modern Security Operations Centers (SOC).
 
-### Education and Certification
+### 🎓 Education and Certification
 * **B.S. in Computer Science:** Strong foundation in networking, operating systems, and data structures.
-* **Certification Path:** Currently in active preparation for industry-recognized cybersecurity certifications to validate my technical expertise.
+* **Certification Path:** Currently preparing for industry-recognized certifications (e.g., Security+, eJPT) to validate my technical expertise in threat detection and incident response.
 
-### Technical Focus and Proof of Work
-I believe that a degree is the foundation, but labs provide the proof. I use this platform to document my hands-on journey:
+### 🛡️ SOC Technical Focus and Proof of Work
+I use this platform to document my hands-on experience with industry-standard security tooling:
 
-* **Security Environments:** Daily operations within Kali Linux for system hardening and penetration testing simulations.
-* **Network Reconnaissance:** Proficiency in Nmap, Dirb, and vulnerability assessment tools.
-* **Hands-on Labs:** Active contributor to TryHackMe labs, with a focus on documenting methodologies and findings.
+* **SIEM & Monitoring:** Developing proficiency in **Wazuh** and **Splunk** for log analysis, alert orchestration, and real-time threat monitoring.
+* **Network Analysis:** Utilizing **Wireshark** for packet inspection and **Tcpdump** for traffic analysis to identify malicious patterns.
+* **Security Environments:** Daily operations within **Kali Linux** for system hardening and defensive simulations.
+* **Reconnaissance & Auditing:** Skilled in **Nmap**, **Dirb**, and **Nikto** for identifying attack surfaces and vulnerabilities.
 
-### Open for Opportunities
-**I am currently open for cybersecurity projects and full-time roles.** Whether you are looking for a dedicated Junior SOC Analyst, a Technical Researcher, or help with security audits, I am ready to contribute and grow with your team.
+### 🤝 Open for Opportunities
+**I am currently open for cybersecurity projects and full-time roles.** I am actively seeking a position as a Junior SOC Analyst or Technical Researcher where I can contribute my analytical skills and dedication to securing digital assets.
 
-### Discipline and Consistency
-I apply the same goal-oriented discipline to security as I do to my fitness. I maintain a strict 6-day PPL bodybuilding split (currently transitioning from 81kg to 71kg), proving that consistency is the key to mastering any complex field.
+### 🏋️‍♂️ Discipline and Consistency
+I apply the same goal-oriented discipline to security as I do to my fitness. I maintain a strict **6-day PPL bodybuilding split**, proving that consistency and the "Proof of Work" mentality are the keys to mastering any complex field.
 
 ---
 *Degrees provide the foundation; labs provide the proof.*
