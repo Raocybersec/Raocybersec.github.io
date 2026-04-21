@@ -5,7 +5,7 @@ categories: [General, Introduction]
 tags: [welcome, portfolio, soc]
 pin: true
 ---
-
+ 
 # Building a Foundation in Security
 
 Welcome to my technical portfolio. As a **Computer Science graduate**, I created this space to document my transition into the cybersecurity industry. This site serves as a live "Proof of Work" repository for my technical labs, certification progress, and security research.
