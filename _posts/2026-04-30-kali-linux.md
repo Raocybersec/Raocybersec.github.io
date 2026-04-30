@@ -1,7 +1,7 @@
 ---
 title: "Turning a 32GB Flash Drive into a Security Powerhouse"
 date: 2026-04-30 14:00:00 +0000
-categories: [Workstation, Linux]
+categories: [Workstation, Pocket Kali Linux]
 tags: [kali-linux, hardware-hacks, portability]
 ---
 
