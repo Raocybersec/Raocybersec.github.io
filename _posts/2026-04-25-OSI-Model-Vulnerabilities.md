@@ -10,7 +10,7 @@ The Open Systems Interconnection (OSI) model is a broad overview of how data mov
 
 Each layer utilizes multiple protocols to facilitate data movement. Understanding how these layers function—and how they break—is the foundation of cybersecurity.
 
-1. Physical Layer (Layer 1)
+ Physical Layer (Layer 1)
 The bottom layer represents the physical components of the network. Here, we deal with signals, cables, and connectors. If a network administrator mentions a "Layer 1 problem," it likely involves hardware—checking connectors, punch downs, or perhaps a mouse literally eating an Ethernet cable.
 
 Cybersecurity Takeaway:
@@ -32,7 +32,7 @@ Environmental Manipulation: Tampering with power or cooling systems to cause har
 
 Port Stealing: Taking over an unattended, physically active network port.
 
-2. Data Link Layer (Layer 2)
+ Data Link Layer (Layer 2)
 Known as the Switching Layer , Layer 2 handles data transfer strictly within a Local Area Network (LAN). It does not move data across different networks. This layer relies on MAC (Media Access Control) addresses —unique hexadecimal identifiers (eg, 00:1A:2B:3C:4D:5E) assigned to every network module (Wi-Fi, Bluetooth, Ethernet).
 
 Switching Logic:
@@ -52,7 +52,7 @@ Network Interface Identifier: The last 3 bytes. A unique serial number for that 
 Cybersecurity Breach Vulnerability:
 MAC Flood Attack: Attackers send thousands of fake MAC addresses to fill the switch's "MAC Table" (its brain). Once full, the switch enters a "fail-open" state, flooding all frames to all ports. At this point, it acts like a "Hub," allowing an attacker using Wireshark to capture everyone's private data.
 
-3. Network Layer (Layer 3)
+ Network Layer (Layer 3)
 Layer 3 is responsible for retrieving data across networks. Routers operate here, ensuring data is packed into packets and moved from the correct source IP to the correct destination IP. Data moves from router to router in "hops"—essentially checkpoints for data.
 
 The Three Flavors of IP Communication:
@@ -79,7 +79,7 @@ Rogue DHCP Server: Providing incorrect network settings to intercept traffic.
 
 IP Address Scanning: Using tools like Nmap to identify "alive" hosts for further attack planning.
 
-4. Transport Layer (Layer 4)
+ Transport Layer (Layer 4)
 The "Logistics Department." While Layer 3 gets data to the right house (IP), Layer 4 ensures it reaches the right Port Number .
 
 Port 80/443: Web Traffic.
@@ -110,7 +110,7 @@ Blind Reset Attack: Using spoofed "RST" packets to kill legitimate connections.
 
 SSL/TLS Interception: Targeting encryption occurring just above this layer.
 
-5. Session Layer (Layer 5)
+ Session Layer (Layer 5)
 Responsible for initiating, maintaining, and gracefully ending sessions. It ensures that multiple applications (Zoom, a movie download, and YouTube) can run on the same IP without interrupting each other. It also provides Checkpoints ; if a download fails at 70%, it resumes from that point rather than restarting at 0%.
 
 Key Protocols:
@@ -137,7 +137,7 @@ Insecure Session Termination: "Zombie" sessions that remain active after a user 
 
 MitM via RPC/NetBIOS: Intercepting handshakes to inject unauthorized commands.
 
-6. Presentation Layer (Layer 6)
+ Presentation Layer (Layer 6)
 The "Translator and Formatter." It ensures data from Layer 7 of one system is readable by Layer 7 of another, handling syntax and semantics.
 
 Primary Jobs:
@@ -163,7 +163,7 @@ Cleartext Exposure: Failure to encrypt sensitive data in transit.
 
 Format String Attacks: Exploiting how applications read data formats to execute code.
 
-7. Application Layer (Layer 7)
+ Application Layer (Layer 7)
 The "Dashboard." This is the only layer users interact with. It provides the interface and protocols applications use to communicate with the network.
 
 Responsibilities & Protocols:
