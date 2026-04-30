@@ -5,27 +5,31 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Rao | Computer Science Graduate & Cybersecurity Aspirant
+# Rao | Computer Science Graduate & Cloud Security Engineering Enthusiast 
 
-I am a Computer Science graduate dedicated to bridging the gap between academic theory and practical security operations. My focus is on mastering the defensive mindsets and monitoring tools required to excel in modern Security Operations Centers (SOC).
+I am a Computer Science graduate focused on building and securing scalable cloud infrastructures. My approach to security is rooted in a "bottom-up" philosophy: I believe that to effectively secure the cloud, one must first master the fundamental networking and system architectures that support it.
+
+### 🏗️ From Foundations to the Cloud
+My technical journey began with a deep dive into **Network Hardening**. By mastering routing, switching, and protocol analysis at the ground level, I developed the specialized perspective required to engineer complex, secure-by-default cloud environments. This progression—from bare-metal networking to automated cloud orchestration—defines my engineering mindset.
 
 ### 🎓 Education and Certification
-* **B.S. in Computer Science:** Strong foundation in networking, operating systems, and data structures.
-* **Certification Path:** Currently preparing for industry-recognized certifications (e.g., Security+, eJPT) to validate my technical expertise in threat detection and incident response.
+* **B.S. in Computer Science:** Core expertise in networking, operating systems, and distributed systems.
+* **Specialization Path:** Currently focused on cloud provider certifications (e.g., AWS Certified Security, Azure Security Engineer) and Infrastructure as Code (IaC) mastery.
 
-### 🛡️ SOC Technical Focus and Proof of Work
-I use this platform to document my hands-on experience with industry-standard security tooling:
+### ☁️ Cloud Security Focus and Proof of Work
+I document my transition into DevSecOps and Cloud Engineering through hands-on labs involving:
 
-* **SIEM & Monitoring:** Developing proficiency in **Wazuh** and **Splunk** for log analysis, alert orchestration, and real-time threat monitoring.
-* **Network Analysis:** Utilizing **Wireshark** for packet inspection and **Tcpdump** for traffic analysis to identify malicious patterns.
-* **Security Environments:** Daily operations within **Kali Linux** for system hardening and defensive simulations.
-* **Reconnaissance & Auditing:** Skilled in **Nmap**, **Dirb**, and **Nikto** for identifying attack surfaces and vulnerabilities.
+*   **Infrastructure as Code (IaC):** Architecting secure, repeatable environments using **Terraform** and **Ansible**.
+*   **Cloud Architecture:** Designing and hardening VPCs, Subnets, and Gateways with a focus on high availability and encryption.
+*   **Identity & Access Management (IAM):** Implementing granular Least Privilege policies and Zero Trust architecture.
+*   **Container & Pipeline Security:** Securing Docker environments and integrating automated security scanning into **CI/CD pipelines**.
+*   **The Network Root:** Maintaining a foundation in **Network Security** (Nmap, Wireshark, Linux Hardening) to understand the "wire" behind the cloud.
 
 ### 🤝 Open for Opportunities
-**I am currently open for cybersecurity projects and full-time roles.** I am actively seeking a position as a Junior SOC Analyst or Technical Researcher where I can contribute my analytical skills and dedication to securing digital assets.
+**I am currently seeking Junior Cloud Security Engineer or DevSecOps roles.** I bring a disciplined, analytical approach to infrastructure security and am eager to help organizations build resilient, automated cloud defenses.
 
 ### 🏋️‍♂️ Discipline and Consistency
-I apply the same goal-oriented discipline to security as I do to my fitness. I maintain a strict **workout routine**, proving that consistency and the "Proof of Work" mentality are the keys to mastering any complex field.
+The same "Proof of Work" mentality I apply to my **fitness and bodybuilding** routine drives my technical growth. Whether it’s hitting a PR in the gym or debugging a Terraform module, I believe consistency and a goal-oriented mindset are the keys to excellence.
 
 ---
-*Degrees provide the foundation; labs provide the proof.*
+*To secure the sky, you must first master the ground.*
