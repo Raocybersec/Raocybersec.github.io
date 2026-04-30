@@ -1,7 +1,7 @@
 ---
 title: The OSI Model and vulnerabilities associated to each layer
 date: 2026-04-30 10:00:00 +0000
-categories: [Network, Fundamentals]  # Main Category, Subcategory
+categories: [Networking]  # Main Category, Subcategory
 tags: [networking, basics]
 ---
 
