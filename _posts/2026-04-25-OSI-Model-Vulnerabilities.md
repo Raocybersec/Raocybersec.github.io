@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "The OSI Model and Vulnerabilities Associated to each Layer"
-date: 2026-04-25
-categories: [Cybersecurity, Networking]
+title: The OSI Model and vulnerabilities associated to each layer
+date: 2026-04-30 10:00:00 +0000
+categories: [Network, Fundamentals]  # Main Category, Subcategory
+tags: [networking, basics]
 ---
 
 The OSI Model: A Comprehensive Deep Dive & Vulnerability Map
