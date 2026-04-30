@@ -1,22 +1,28 @@
 ---
-title: Welcome to My Cybersecurity Portfolio
-date: 2026-04-20 12:00:00 +0000
+title: Welcome to My Cloud Security Engineering Portfolio
+date: 2026-04-30 12:00:00 +0000
 categories: [General, Introduction]
-tags: [welcome, portfolio, soc]
+tags: [cloud-security, networking, devsecops, portfolio]
 pin: true
 ---
  
-# Building a Foundation in Security
+# From Packets to Polices: Engineering Secure Clouds
 
-Welcome to my technical portfolio. As a **Computer Science graduate**, I created this space to document my transition into the cybersecurity industry. This site serves as a live "Proof of Work" repository for my technical labs, certification progress, and security research.
+Welcome to my technical portfolio. As a **Computer Science graduate**, I built this space to document my evolution into a Cloud Security Engineer. My journey didn't start in the cloud; it started at the foundation. 
 
-### 🛡️ What I am Documenting
-On this home feed, I will be sharing my progress in several key areas:
-* **SIEM & Monitoring:** Deploying and tuning **Wazuh** and **Splunk** for threat detection.
-* **Network Analysis:** Deep-dives into traffic using **Wireshark** and **Tcpdump**.
-* **Offensive Labs:** Documenting vulnerability scans and reconnaissance with **Nmap**, **Dirb**, and **Nikto**.
+I believe that you cannot secure the cloud without first understanding the wire. I began my journey by **hardening my networking fundamentals**—mastering subnetting, routing, and traffic analysis—before translating those skills into high-scale, automated cloud environments.
+
+### 🏗️ The Roadmap of My Work
+This site serves as a "Proof of Work" repository for my technical progression:
+
+*   **The Foundation:** Deep-dives into **Network Hardening**, VPC design, and secure tunneling.
+*   **Infrastructure as Code (IaC):** Building repeatable, secure environments using **Terraform** and **Ansible**.
+*   **Cloud Identity:** Designing robust **IAM policies** and implementing Zero Trust frameworks.
+*   **Automated Defense:** Integrating security guardrails and automated compliance into **CI/CD pipelines**.
 
 ### 🤝 Open for Opportunities
-I am currently **open for projects and full-time cybersecurity roles**. If you are looking for a disciplined, technical, and growth-oriented Junior SOC Analyst, feel free to explore my labs or reach out via LinkedIn.
+I am currently **seeking Junior Cloud Security Engineer or DevSecOps roles**. I bring a disciplined, "bottom-up" understanding of security—from low-level networking to global cloud orchestration. 
 
-> "Degrees provide the foundation; labs provide the proof."
+If you are looking for an engineer who values documentation and builds with a security-first mindset, explore my labs or reach out via LinkedIn.
+
+> "To secure the sky, you must first master the ground."
