@@ -1,7 +1,7 @@
 ---
 title: The OSI Model and vulnerabilities associated to each layer
 date: 2026-04-30 10:00:00 +0000
-categories: [Security Blogs]  # Main Category, Subcategory
+categories: [Security Blogs, Networks]  # Main Category, Subcategory
 tags: [networking, basics]
 ---
 
