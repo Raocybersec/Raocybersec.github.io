@@ -1,5 +1,5 @@
 ---
-title: The OSI Model and vulnerabilities associated to each layer
+title: The Architecture of Data: A Deep-Dive into the Linux TCP/IP Stack
 date: 2026-04-30 10:00:00 +0000
 categories: [Security Blogs, Networks]  # Main Category, Subcategory
 tags: [networking, basics]
