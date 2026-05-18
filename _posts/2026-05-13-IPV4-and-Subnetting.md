@@ -1,10 +1,58 @@
-# Technical Deep-Dive: Hierarchical Network Design & VLSM
-**Category:** Network Engineering / Defensive Security  
-**Series:** Proof of Work Labs  
-**Author:** Rao Tariq Jameel  
+---
+layout: post
+title: "Technical Deep-Dive: Hierarchical Network Design & VLSM"
+date: 2026-05-11
+categories: [Network-Engineering, Defensive-Security]
+tags: [Subnetting, VLSM, Cisco, Network-Design, Security]
+author: "Rao Tariq Jameel"
+series: "Proof of Work Labs"
+---
+
+## 📌 Executive Summary
+
+Modern enterprise networks require rigid structure to ensure scalability, predictable routing, and tight security containment. This deep-dive lab document outlines the engineering implementation of a Hierarchical Network Design combined with Variable Length Subnet Masking (VLSM) to optimize address space allocation while building strong defensive boundaries between organizational segments.
 
 ---
 
+## 🗺️ The Core Framework: 3-Layer Hierarchical Model
+
+To eliminate unpredictable traffic paths, the infrastructure is segregated into three distinct structural routing layers:
+
+1. **Core Layer:** The high-speed backbone of the network, optimized strictly for fast packet switching and maximum availability. No packet filtering or policy enforcement happens here to prevent processing latency.
+2. **Distribution Layer:** The policy-driven isolation boundary. This layer aggregates wiring closets, routes traffic between subnets, and enforces Access Control Lists (ACLs) and stateful security boundaries.
+3. **Access Layer:** The local perimeter. This layer grants network entry to end-user workstations, IP phones, and local assets, leveraging VLAN segmentation to keep local chatter contained.
+
+---
+
+## 🔢 VLSM Address Optimization Strategy
+
+Instead of wasting vast blocks of IP addresses using traditional classful subnetting, **Variable Length Subnet Masking (VLSM)** is applied. By breaking down a base address block into subnets with customized masks, we precisely match IP allocation to host requirements while leaving clean room for future infrastructure expansion.
+
+### Subnet Allocation Blueprint
+Below is the structural breakdown of our address space distribution based on targeted host requirements:
+
+| Department / Segment | Required Hosts | Allocated Subnet Range | Subnet Mask | CIDR Notation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Operations & Engineering** | 120 Hosts | `192.168.1.0` to `192.168.1.127` | `255.255.255.128` | `/25` |
+| **Corporate Sales** | 50 Hosts | `192.168.1.128` to `192.168.1.191` | `255.255.255.192` | `/26` |
+| **Finance & HR** | 26 Hosts | `192.168.1.192` to `192.168.1.223` | `255.255.255.224` | `/27` |
+| **Management DMZ** | 10 Hosts | `192.168.1.224` to `192.168.1.239` | `255.255.255.240` | `/28` |
+| **WAN Point-to-Point Links** | 2 Hosts | `192.168.1.240` to `192.168.1.243` | `255.255.255.252` | `/30` |
+
+---
+
+## 🛡️ Defensive Security Implementations
+
+By chaining VLSM boundaries with our hierarchical topology, we can implement micro-segmented defensive controls at the distribution plane:
+* **Network Isolation:** Departments are placed into independent VLAN spaces. A broadcast storm or malware outbreak in Corporate Sales cannot cross over onto the Finance segment without passing a layer-3 inspection point.
+* **Granular Access Control:** ACLs are built directly onto the subnets' default gateways to enforce a least-privilege traffic model, ensuring only explicitly permitted administration assets can touch the Management DMZ.
+
+---
+
+## 🎯 Key Engineering Takeaways
+
+* **Zero Waste Allocation:** Tailoring subnet masks to specific host requirements saved over 40% of the IP block compared to traditional static subnetting layouts.
+* **Deterministic Routing:** Hierarchical design simplifies routing tables and drastically accelerates troubleshooting by localizing failures to specific distribution points.
 ## 1. Introduction
 In network defense, visibility is everything. You cannot defend what you don't understand. During my recent labs, I moved past simple IP addressing to master **Variable Length Subnet Masking (VLSM)**. This post breaks down how to engineer a network that scales for 500+ hosts while maintaining strict security boundaries.
 
