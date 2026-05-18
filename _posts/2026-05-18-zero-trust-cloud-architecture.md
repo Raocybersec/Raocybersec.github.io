@@ -12,13 +12,13 @@ Perimeter security is no longer enough. If an attacker breaches the exterior fir
 
 To solve this, I built and audited a **0-Trust 3-Tier Cloud VPC Network Architecture** using **Terraform** and **LocalStack**. By implementing a *Never Trust, Always Verify* posture, this design enforces strict isolation between the public web interface, application logic, and backend data storage.
 
----
+
 
 ## 🏗️ Subnet Layout & Traffic Flow
 
 The architecture divides a `/16` VPC into three distinct `/24` subnets, forcing traffic to move sequentially through isolated security zones.
 
-```text
+text
        [ Public Internet (0.0.0.0/0) ]
                       │
               ( Ingress: Port 443 )
