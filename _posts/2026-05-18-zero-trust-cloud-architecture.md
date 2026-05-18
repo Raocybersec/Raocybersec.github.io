@@ -1,24 +1,23 @@
-
 ---
+layout: post
 title: "Building a Zero-Trust 3-Tier Network with Terraform & LocalStack"
 date: 2026-05-18
 categories: [Cloud-Security, Infrastructure-As-Code]
 tags: [Terraform, Zero-Trust, AWS, LocalStack, Networking]
+author: "Rao Tariq Jameel"
 ---
-
-
 
 Perimeter security is no longer enough. If an attacker breaches the exterior firewall of a traditional network, they gain full lateral access to everything inside. 
 
 To solve this, I built and audited a **0-Trust 3-Tier Cloud VPC Network Architecture** using **Terraform** and **LocalStack**. By implementing a *Never Trust, Always Verify* posture, this design enforces strict isolation between the public web interface, application logic, and backend data storage.
 
-
+---
 
 ## 🏗️ Subnet Layout & Traffic Flow
 
 The architecture divides a `/16` VPC into three distinct `/24` subnets, forcing traffic to move sequentially through isolated security zones.
 
-text
+```text
        [ Public Internet (0.0.0.0/0) ]
                       │
               ( Ingress: Port 443 )
@@ -45,6 +44,7 @@ text
 └──────────────────────────────────────────────────────────┘
 
 Rather than using volatile IP whitelisting, I implemented Identity-Based Security Group Chaining. Firewalls at each layer explicitly evaluate the cryptographic source security group token instead of the source IP address. If the proper identity badge isn't present, the packets are instantly dropped.
+
 🛠️ Infrastructure-as-Code Blueprints
 
 The environment is entirely declared in a monolithic Terraform configuration for clean, deterministic deployments.
@@ -202,3 +202,5 @@ To prove the security model under active conditions, I ran verification tests fr
 🎯 Wrap Up
 
 This project demonstrates hands-on mastery of declarative cloud networking, automated infrastructure provisioning, identity-aware firewall chaining, and granular defensive controls.
+
+👉 Explore the Complete Codebase on GitHub
