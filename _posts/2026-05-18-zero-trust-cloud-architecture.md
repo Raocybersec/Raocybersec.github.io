@@ -1,12 +1,12 @@
 
 ---
-layout: post
 title: "Building a Zero-Trust 3-Tier Network with Terraform & LocalStack"
 date: 2026-05-18
 categories: [Cloud-Security, Infrastructure-As-Code]
 tags: [Terraform, Zero-Trust, AWS, LocalStack, Networking]
-author: "Rao Tariq Jameel"
 ---
+
+
 
 Perimeter security is no longer enough. If an attacker breaches the exterior firewall of a traditional network, they gain full lateral access to everything inside. 
 
